@@ -1,0 +1,14 @@
+### lock ###
+poetry.lock
+
+### Apple ###
+.DS_Store
+
+### Settings ###
+bucl_settings.py
+
+### Secret ### 
+root_account.json
+
+### cash ###
+__pycache__
