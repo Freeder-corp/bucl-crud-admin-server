@@ -17,6 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+admin.site.site_header = "BUCL 관리자 페이지"
+admin.site.index_title = "Admin Page"
+admin.site.site_title = "BUCL CRUD Administration"
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
